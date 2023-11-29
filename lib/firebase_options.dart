@@ -44,42 +44,37 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'CHANGE API KEY WITH YOURS',
-    appId: 'CHANGE APP ID WITH YOURS',
-    messagingSenderId: 'CHANGE MESSAGE ID WITH YOURS',
-    projectId: 'CHANGE THE PROJECT ID WITH YOURS',
-    authDomain: 'CHANGE AUTH DOMAIN WITH YOURS',
-    databaseURL: 'CHANGE THE DATABASE URL WITH YOURS',
-    storageBucket: 'CHANGE THE STORAGE BUCKET URL WITH YOURS',
+    apiKey: 'AIzaSyD7YNAqS86cy3Y_DZnL3tvLZuxifqMicqY',
+    appId: '1:146489587725:web:6905fef6dd75d7e4ca3d44',
+    messagingSenderId: '146489587725',
+    projectId: 'trajan-food-app-98028',
+    authDomain: 'trajan-food-app-98028.firebaseapp.com',
+    storageBucket: 'trajan-food-app-98028.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'CHANGE API KEY WITH YOURS',
-    appId: 'CHANGE APP ID WITH YOURS',
-    messagingSenderId: 'CHANGE MESSAGE ID WITH YOURS',
-    projectId: 'CHANGE THE PROJECT ID WITH YOURS',
-    authDomain: 'CHANGE AUTH DOMAIN WITH YOURS',
-    databaseURL: 'CHANGE THE DATABASE URL WITH YOURS',
-    storageBucket: 'CHANGE THE STORAGE BUCKET URL WITH YOURS',
+    apiKey: 'AIzaSyBghhKM1hSM2WyNTHYuweOwhk77CkbqAcA',
+    appId: '1:146489587725:android:510743f28b8261fdca3d44',
+    messagingSenderId: '146489587725',
+    projectId: 'trajan-food-app-98028',
+    storageBucket: 'trajan-food-app-98028.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'CHANGE API KEY WITH YOURS',
-    appId: 'CHANGE APP ID WITH YOURS',
-    messagingSenderId: 'CHANGE MESSAGE ID WITH YOURS',
-    projectId: 'CHANGE THE PROJECT ID WITH YOURS',
-    authDomain: 'CHANGE AUTH DOMAIN WITH YOURS',
-    databaseURL: 'CHANGE THE DATABASE URL WITH YOURS',
-    storageBucket: 'CHANGE THE STORAGE BUCKET URL WITH YOURS',
+    apiKey: 'AIzaSyD6vr7dt6Vp6WF-qiRPI84UKiEPtHnDNq8',
+    appId: '1:146489587725:ios:861d4e98701890d8ca3d44',
+    messagingSenderId: '146489587725',
+    projectId: 'trajan-food-app-98028',
+    storageBucket: 'trajan-food-app-98028.appspot.com',
+    iosBundleId: 'com.example.trajanFoodApp',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'CHANGE API KEY WITH YOURS',
-    appId: 'CHANGE APP ID WITH YOURS',
-    messagingSenderId: 'CHANGE MESSAGE ID WITH YOURS',
-    projectId: 'CHANGE THE PROJECT ID WITH YOURS',
-    authDomain: 'CHANGE AUTH DOMAIN WITH YOURS',
-    databaseURL: 'CHANGE THE DATABASE URL WITH YOURS',
-    storageBucket: 'CHANGE THE STORAGE BUCKET URL WITH YOURS',
+    apiKey: 'AIzaSyD6vr7dt6Vp6WF-qiRPI84UKiEPtHnDNq8',
+    appId: '1:146489587725:ios:cd5f397f8baa45d1ca3d44',
+    messagingSenderId: '146489587725',
+    projectId: 'trajan-food-app-98028',
+    storageBucket: 'trajan-food-app-98028.appspot.com',
+    iosBundleId: 'com.example.trajanFoodApp.RunnerTests',
   );
 }
